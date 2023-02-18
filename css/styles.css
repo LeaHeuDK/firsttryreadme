@@ -34,3 +34,45 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+.webudvikling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    height: 100px;
+}
+
+.overskrift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: bisque;
+}
+
+.billede{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    padding: 1rem;
+    min-height: calc(100vh - 100px - 100px);
+}
+.tekst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: darksalmon;
+}

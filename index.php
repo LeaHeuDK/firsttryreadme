@@ -24,10 +24,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+    <div class="webudvikling">
+      <h1>Webudvikling</h1>
+    </div>
+
+    <div class="main">
+        <div class="overskrift">
+            <h2>Opgave1</h2>
+        </div>
+        <div class="tekst">
+            Dette er Lea´s første forsøg på at lave en side med readme.
+        </div>
+        <br>
+        <div class="billede">
+            <img src="images/coding.jpg" width="300px" height="100px">
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <p>Lea Heuser</p>
+        </div>
+        <div>
+            <p>Multimediedesign</p>
+        </div>
+        <div>
+            <p>2.semester</p>
+        </div>
+    </div>
+
+<?php
+echo ""
+?>
 
 </body>
 </html>
